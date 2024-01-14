@@ -50,14 +50,17 @@ a {
 }
 
 .nav-ul .navbar:hover,
-.contacts-link:hover,
-.btn-order:hover {
+.contacts-link:hover {
   color: #404bbf;
 }
 
 .nav-ul .navbar:focus,
-.contacts-link:focus,
-.btn-order:focus {
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.btn-order:focus,
+.btn-order:hover {
   color: #404bbf;
 }
 
@@ -151,4 +154,19 @@ a {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
