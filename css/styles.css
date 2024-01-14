@@ -2,7 +2,7 @@
 font-family: 'Roboto', sans-serif;*/
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -15,18 +15,18 @@ a {
 }
 
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .part-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-ul .navbar {
@@ -36,6 +36,10 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .contacts-link {
@@ -54,7 +58,7 @@ a {
 .nav-ul .navbar:focus,
 .contacts-link:focus,
 .btn-order:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .order {
@@ -67,7 +71,7 @@ a {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
@@ -80,6 +84,15 @@ a {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+}
+
+.benefits-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .benefits-list,
@@ -96,6 +109,7 @@ a {
 .ourteam-list,
 .portfolio-list,
 .footer-text .section-text {
+  background-color: #ffffff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -108,11 +122,12 @@ a {
 
 .ourteam-title,
 .portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
