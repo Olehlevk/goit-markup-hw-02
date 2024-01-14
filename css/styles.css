@@ -95,9 +95,26 @@ a {
   letter-spacing: 0.4px;
 }
 
-.benefits-list,
-.ourteam-list,
+.benefits-list .title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.ourteam-list .title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
 .portfolio-list .title {
+  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -109,7 +126,6 @@ a {
 .ourteam-list,
 .portfolio-list,
 .footer-text .section-text {
-  background-color: #ffffff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -118,6 +134,11 @@ a {
 
 .ourteam {
   background: #f4f4fd;
+}
+
+.ourteam-list .title,
+.section-text {
+  background: #ffffff;
 }
 
 .ourteam-title,
