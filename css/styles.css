@@ -139,7 +139,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.ourteam-list > li {
+.ourteam-list .list-item {
   background-color: #ffffff;
 }
 
