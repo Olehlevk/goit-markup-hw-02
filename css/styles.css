@@ -59,13 +59,8 @@ a {
   color: #404bbf;
 }
 
-.btn-order:focus,
-.btn-order:hover {
-  color: #404bbf;
-}
-
 .order {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .page-title {
@@ -79,7 +74,7 @@ a {
 }
 
 .btn-order {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -87,6 +82,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+}
+
+.btn-order:focus,
+.btn-order:hover {
+  background-color: #404bbf;
 }
 
 .benefits-title {
@@ -136,12 +136,11 @@ a {
 }
 
 .ourteam {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
-.ourteam-list .title,
-.section-text {
-  background: #ffffff;
+.ourteam-list > li {
+  background-color: #ffffff;
 }
 
 .ourteam-title,
@@ -157,7 +156,7 @@ a {
 }
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .footer-logo {
